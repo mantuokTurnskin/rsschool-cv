@@ -9,6 +9,7 @@
 ## Skills
 * Python *(for UI autotests and algorithmic tasks)*
 * HTML&CSS&JS *(I do small projects, but I want to do big ones)*
+* Java and C++ *(a little for fun)*
 ## Code examples
 [My github](https://github.com/mantuokTurnskin)
 ## Education
