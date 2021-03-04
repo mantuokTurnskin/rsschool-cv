@@ -1,1 +1,1 @@
-https://mantuokTurnskin.github.io/rsschool-cv/cv
+https://mantuokTurnskin.github.io/rsschool-cv/
