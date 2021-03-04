@@ -18,13 +18,16 @@ p,
 li {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-h2{
+
+h2 {
     font-size: 30px;
     padding-bottom: 15px;
 }
+
 p,
 a,
 li {
@@ -65,7 +68,8 @@ section {
     line-height: 50px;
     padding-left: 10px;
 }
-.link-with-left-margin{
+
+.link-with-left-margin {
     margin-left: 20px;
 }
 
