@@ -1,29 +1,31 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background: rgb(168, 168, 168);
 }
 
-ul {
-    list-style-type: none;
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
 }
 
-h1,
-h2,
-p,
-li {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+header,
+main,
+footer {
+    padding: 0px 30px;
+}
+
+section {
+    padding-bottom: 30px;
 }
 
 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
+    text-transform: uppercase;
 }
 
 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     padding-bottom: 15px;
 }
@@ -32,23 +34,15 @@ p,
 a,
 li,
 time {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     line-height: 35px;
 }
 
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 10px 0 30px;
-    background: #fff;
-}
-
-section {
-    padding-bottom: 30px;
-}
 
 .header {
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 
@@ -85,26 +79,31 @@ section {
     background-repeat: no-repeat;
 }
 
-footer{
+.footer {
     background: rgb(209, 208, 208);
-    padding: 10px 0;
 }
-.footer__items{
+
+.footer__items,
+.footer__links {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer__github-link{
+
+.footer__github-link {
     color: lightslategrey;
     font-weight: bold;
     text-decoration: none;
 }
-.footer__creation-year{
+
+.footer__creation-year {
     color: lightslategrey;
 }
-.footer__rsschool-ico{
+
+.footer__rsschool-ico {
     width: 50%;
 }
-.footer__youtube-ico{
+
+.footer__youtube-ico {
     width: 50%;
 }
