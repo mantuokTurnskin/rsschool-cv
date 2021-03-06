@@ -30,7 +30,8 @@ h2 {
 
 p,
 a,
-li {
+li,
+time {
     font-size: 25px;
     line-height: 35px;
 }
@@ -82,4 +83,28 @@ section {
     margin-left: 10px;
     background-image: url(../img/arrow_right.svg);
     background-repeat: no-repeat;
+}
+
+footer{
+    background: rgb(209, 208, 208);
+    padding: 10px 0;
+}
+.footer__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__github-link{
+    color: lightslategrey;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer__creation-year{
+    color: lightslategrey;
+}
+.footer__rsschool-ico{
+    width: 50%;
+}
+.footer__youtube-ico{
+    width: 50%;
 }
