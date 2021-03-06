@@ -1,0 +1,109 @@
+body {
+    background: rgb(168, 168, 168);
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+header,
+main,
+footer {
+    padding: 0px 30px;
+}
+
+section {
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+p,
+a,
+li,
+time {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+.contacts__layout {
+    display: flex;
+    align-items: center;
+
+}
+
+.contacts__photo {
+    max-width: 500px;
+    border: 0px solid transparent;
+    border-radius: 50% 50%;
+}
+
+.contacts__link {
+    font-size: 30px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.link-with-left-margin {
+    margin-left: 20px;
+}
+
+
+.skill__list-item::before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    background-image: url(../img/arrow_right.svg);
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background: rgb(209, 208, 208);
+}
+
+.footer__items,
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__github-link {
+    color: lightslategrey;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer__creation-year {
+    color: lightslategrey;
+}
+
+.footer__rsschool-ico {
+    width: 50%;
+}
+
+.footer__youtube-ico {
+    width: 50%;
+}
